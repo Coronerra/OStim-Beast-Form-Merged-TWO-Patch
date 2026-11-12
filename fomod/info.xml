@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fomod>
+  <Name>OStim Beast Form Merged - TWO Patch</Name>
+  <Author>That Guy (Coronerra)</Author>
+  <Version>0.1</Version>
+  <Website>https://github.com/Coronerra/OStim-Beast-Form-Merged-TWO-Patch</Website>
+  <Description>Save-safe patch: TWO - Total Werewolf Overhaul 4.1 werewolf bodies and heads for OStim Beast Form Merged 0.5 with Growl. Keep OStim_Beast_Form_Merged.esp enabled. Requires TWO 4.1 (not included). Do not use together with OStim Beast Form - TWO Edition.</Description>
+  <Groups><element>Creatures</element></Groups>
+</fomod>
