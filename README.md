@@ -3,7 +3,7 @@
 > **Download:** [v0.1 release](https://github.com/Coronerra/OStim-Beast-Form-Merged-TWO-Patch/releases/tag/v0.1) → `OStim_Beast_Form_Merged_TWO_Patch_0.1.zip` (MO2 / FOMOD installer).
 > AI assistants: start with **[AI_CONTEXT.md](AI_CONTEXT.md)**. Build details: [BUILD_NOTES.md](BUILD_NOTES.md). License: [MIT for That Guy (Coronerra)'s work; third-party assets belong to their authors](LICENSE).
 
-**Skyrim SE / AE · ESL-flagged patch · for OStim Beast Form Merged 0.5 + Growl + TWO 4.1 · save-safe · by That Guy (Coronerra)**
+**Skyrim SE / AE · ESL-flagged patch · for OStim Beast Form Merged 0.6 (or 0.5) + Growl + TWO 4.1 · save-safe · by That Guy (Coronerra)**
 
 ---
 
@@ -13,17 +13,17 @@ There are three related projects. **Use exactly one setup.**
 
 | You use… | Get this |
 |---|---|
-| Growl + the HDT Werewolves / ABC look | **[OStim Beast Form Merged 0.5](https://github.com/Coronerra/OStim-Beast-Form-Merged)** (main Growl edition) on its own |
-| **Growl + OStim Beast Form Merged 0.5, and you want TWO 4.1 bodies without losing your save** | **Merged 0.5 + this patch** |
-| TWO 4.1, no Growl needed | **[OStim Beast Form - TWO Edition](https://github.com/Coronerra/OStim-Beast-Form-TWO)** |
+| Growl + the HDT Werewolves / ABC look | **[OStim Beast Form Merged 0.6](https://github.com/Coronerra/OStim-Beast-Form-Merged)** (main Growl edition; [v0.6 release](https://github.com/Coronerra/OStim-Beast-Form-Merged/releases/tag/v0.6)) on its own |
+| **Growl + OStim Beast Form Merged 0.6 (or 0.5), and you want TWO 4.1 bodies without losing your save** | **Merged 0.6 + this patch (TWO Patch 0.1)** |
+| TWO 4.1, no Growl needed | **[OStim Beast Form - TWO Edition 0.2](https://github.com/Coronerra/OStim-Beast-Form-TWO)** ([v0.2 release](https://github.com/Coronerra/OStim-Beast-Form-TWO/releases/tag/v0.2)) |
 
-**This patch and the TWO Edition must never be used together.** This patch needs Merged 0.5 installed and enabled; it does not replace it.
+**This patch and the TWO Edition must never be used together.** This patch needs OStim Beast Form Merged (0.6 recommended; 0.5 also works) installed and enabled; it does not replace it.
 
 ---
 
 ## What this is
 
-A small patch for people who already run **OStim Beast Form Merged 0.5 with Growl** and want the bodies and heads from **TWO - Total Werewolf Overhaul 4.1** (Frosferes) instead of the HDT Werewolves / BFA look.
+A small patch for people who already run **OStim Beast Form Merged 0.6 (or 0.5) with Growl** and want the bodies and heads from **TWO - Total Werewolf Overhaul 4.1** (Frosferes) instead of the HDT Werewolves / BFA look.
 
 - **Not a new edition and not a repack.** `OStim_Beast_Form_Merged.esp` stays installed and enabled, with the same name and the same FormIDs, so **saves that use it keep working.**
 - TWO's werewolf body, heads, skeleton, SMP and textures (and TWO Alternate Textures if you use them) take over the look.
@@ -48,7 +48,7 @@ No TWO, Alternate Textures, MFA, Growl or Merged 0.5 file is included or overwri
 ## Requirements
 
 **Required**
-- **OStim Beast Form Merged 0.5** — keep it enabled; its plugin stays.
+- **OStim Beast Form Merged 0.6** (0.5 also works) — keep it enabled; its plugin stays.
 - **Growl - Werebeasts of Skyrim**
 - **JS Emissive Eyes** (already a master of Merged 0.5)
 - **GT - Softbody**, OCum, "OCum TL SceneFix + GT Softbody Merge" and the other 0.5 requirements (SKSE, PapyrusUtil, OStim, FSMP, …)
@@ -145,10 +145,17 @@ Vampire Lord: untouched. 0.5's VL heads, body, JS glow and hard swap stay. Nothi
 
 **BFA Heads add-on (optional):** overrides TWO's `MaleHeadWerewolf` and `FemaleHeadWerewolf` head parts. It only changes which expression TRI they use (`ExpHeadWerewolf_BFA.tri`). Head shapes, BodySlide builds and textures stay TWO's. Without it, TWO's heads still talk and emote with MFA, but Better Facial Animations has no brow-raise morphs on the werewolf (the same gap TWO and MFA have).
 
+## Works with Merged 0.6
+Merged 0.6 only removed the experimental WWF_OnTop female cowgirl test scenes and updated docs. Its plugin, FormIDs and assets are unchanged from 0.5, so this patch (0.1) works the same on 0.5 or 0.6 and needs no new download. Female werewolf scenes are not bundled with Merged or this patch; they come from separate, optional scene packs.
+
+## Changelog
+- **README update (no new zip):** points at OStim Beast Form Merged 0.6 and TWO Edition 0.2; removed WWF_OnTop from the hub list (those test scenes were removed in Merged 0.6 / TWO Edition 0.2).
+- **0.1:** first public release.
+
 ## Feature parity with Merged 0.5
 Carried over unchanged (they live in `OStim_Beast_Form_Merged.esp` and its files, which this patch does not touch):
 - OStim as a werewolf/VL with your mind intact, hotkey and MCM
-- Hubs and pack pages (Billyy/Baka/FlufyFox/FunnyBiz/WWF_OnTop), Lirael packs
+- Hubs and pack pages (Billyy/Baka/FlufyFox/FunnyBiz), Lirael packs
 - Beast Aware, SkyrimNet + OStimNet bridge, scene descriptions
 - Shift-back timer pause (`PlayerWerewolfShiftBackTime`)
 - Beast Load / Beast Pie (OCum), multi-round stacking

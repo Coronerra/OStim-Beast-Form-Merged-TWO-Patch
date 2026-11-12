@@ -5,14 +5,16 @@ https://github.com/Coronerra/OStim-Beast-Form-Merged-TWO-Patch
 WHICH DOWNLOAD IS FOR YOU?
 --------------------------
 There are three related downloads. Use exactly ONE setup:
-- OStim Beast Form Merged 0.5 (Growl edition) on its own: Growl with the
+- OStim Beast Form Merged 0.6 (Growl edition) on its own: Growl with the
   HDT Werewolves / ABC look.  https://github.com/Coronerra/OStim-Beast-Form-Merged
-- OStim Beast Form Merged 0.5 + THIS PATCH: you use Growl and Merged 0.5 and
+- OStim Beast Form Merged 0.6 (or 0.5) + THIS PATCH: you use Growl and Merged and
   want TWO - Total Werewolf Overhaul 4.1 bodies and heads, without losing
   your save.
-- OStim Beast Form - TWO Edition: you use TWO and do NOT need Growl.
+- OStim Beast Form - TWO Edition 0.2: you use TWO and do NOT need Growl.
   https://github.com/Coronerra/OStim-Beast-Form-TWO
 This patch and the TWO Edition must NEVER be used together.
+(Repo copy updated after the 0.1 zip: Merged 0.6 and TWO Edition 0.2 removed the
+experimental WWF_OnTop test scenes. This patch works the same with Merged 0.5 or 0.6.)
 
 WHAT THIS IS
 ------------
@@ -220,7 +222,7 @@ FEATURE PARITY WITH MERGED 0.5
 Carried over unchanged (they live in OStim_Beast_Form_Merged.esp and its
 files, which this patch does not touch):
 - OStim as a werewolf/VL with your mind intact, hotkey and MCM
-- Hubs and pack pages (Billyy/Baka/FlufyFox/FunnyBiz/WWF_OnTop), Lirael packs
+- Hubs and pack pages (Billyy/Baka/FlufyFox/FunnyBiz), Lirael packs
 - Beast Aware, SkyrimNet + OStimNet bridge, scene descriptions
 - Shift-back timer pause (PlayerWerewolfShiftBackTime)
 - Beast Load / Beast Pie (OCum), multi-round stacking
