@@ -6,6 +6,7 @@ For AI assistants, bots and modders. Everything written by That Guy (Coronerra) 
 - **This repo:** a save-safe patch on top of OStim Beast Form Merged 0.5 + Growl that swaps the werewolf look to **TWO - Total Werewolf Overhaul 4.1** (Frosferes). Plugin `OStim_Beast_Form_Merged_TWO_Patch.esp`. `OStim_Beast_Form_Merged.esp` stays enabled with the same FormIDs.
 - **[OStim-Beast-Form-Merged](https://github.com/Coronerra/OStim-Beast-Form-Merged):** the main Growl edition this patch needs.
 - **[OStim-Beast-Form-TWO](https://github.com/Coronerra/OStim-Beast-Form-TWO):** standalone TWO edition (no Growl). Never combine it with this patch.
+- **[OStim-Beast-Form-TWO-Herm-Patch](https://github.com/Coronerra/OStim-Beast-Form-TWO-Herm-Patch):** optional add-on (own ESL, master `Skyrim.esm` only) for TWO Extras' herm / urta player werewolf; sits on Merged + TWO Patch or on the TWO Edition. Not tested by the author; problems go to the LoversLab support section of OStim Beast Form Merged.
 - This repo exists separately so it can be removed on request from Frosferes without touching the main project. Never add TWO files to it.
 
 ## 2. Repository layout
