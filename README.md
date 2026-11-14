@@ -1,3 +1,11 @@
+> ## ⚠️ Deprecated: use OStim Beast Form Merged 0.7
+>
+> This project is no longer updated. **[OStim Beast Form Merged 0.7](https://github.com/Coronerra/OStim-Beast-Form-Merged)** replaces it: one download with one installer for Growl and TWO users, all on the TWO body ([v0.7 release](https://github.com/Coronerra/OStim-Beast-Form-Merged/releases/tag/v0.7)).
+>
+> In the 0.7 installer, pick **Growl user** (and softbody **Yes** if you run GT - Softbody). 0.7 contains this patch's plugin, so remove this patch mod after installing it. Same plugins, so saves keep working. See [Updating to 0.7](https://github.com/Coronerra/OStim-Beast-Form-Merged#updating-to-07).
+>
+> This repo and its old releases stay up for reference.
+
 # OStim Beast Form Merged - TWO Patch 0.1
 
 > **Download:** [v0.1 release](https://github.com/Coronerra/OStim-Beast-Form-Merged-TWO-Patch/releases/tag/v0.1) → `OStim_Beast_Form_Merged_TWO_Patch_0.1.zip` (MO2 / FOMOD installer).
