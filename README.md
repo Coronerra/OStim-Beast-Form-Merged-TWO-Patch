@@ -62,7 +62,7 @@ No TWO, Alternate Textures, MFA, Growl or Merged 0.5 file is included or overwri
 - **OStim Beast Form Merged 0.6** (0.5 also works) — keep it enabled; its plugin stays.
 - **Growl - Werebeasts of Skyrim**
 - **JS Emissive Eyes** (already a master of Merged 0.5)
-- **GT - Softbody**, OCum, "OCum TL SceneFix + GT Softbody Merge" and the other 0.5 requirements (SKSE, PapyrusUtil, OStim, FSMP, …)
+- **[GT - Softbody](https://www.nexusmods.com/skyrimspecialedition/mods/152103)** by Goutou, OCum, "OCum TL SceneFix + GT Softbody Merge" and the other 0.5 requirements (SKSE, PapyrusUtil, OStim, FSMP, …)
 - **Monster Facial Animation / Monster Lipsync SE** (`MonsterLipSync1.esp`). **Hard master:** TWO and this patch both list it as a master. Merged 0.5 by itself does *not* need it, so install it now if you don't already have it.
 - **NEW: TWO - Total Werewolf Overhaul 4.1** (Frosferes, LoversLab; *not included*). FOMOD choices:
 
@@ -223,6 +223,6 @@ Details: [`Data/Docs/OStim Beast Form Merged TWO Patch/OSTRANDS_TWO_FINDINGS.txt
 - **Frosferes:** TWO - Total Werewolf Overhaul (bodies, heads, skeleton, SMP).
 - **TealEri (aka CinnaMewRoll):** Monster Facial Animation and Expressive Werebeasts, the base of TWO's expressive heads.
 - **BakaFactory:** Animated Beast's Cocks (the sheath geometry, as in 0.5).
-- **EnaiSiaion:** Growl. **johnskyrim:** JS Emissive Eyes. **Goutou:** GT - Softbody.
+- **EnaiSiaion:** Growl. **johnskyrim:** JS Emissive Eyes. **Goutou:** [GT - Softbody](https://www.nexusmods.com/skyrimspecialedition/mods/152103).
 - Everyone credited in the [OStim Beast Form Merged 0.5 README](https://github.com/Coronerra/OStim-Beast-Form-Merged).
 - **That Guy (Coronerra):** OStim Beast Form Merged, this patch and the BFA brow morphs.
